@@ -1,3 +1,12 @@
 1. Run the compiled executable.
 2. Use the arrow keys to navigate through the available modes.
 3. Press 'q' to exit the program.
+
+
+Arrow Key Controls
+Up Arrow (↑): Increment the second mode.
+Down Arrow (↓): Decrement the second mode.
+Left Arrow (←): Increment the first mode.
+Right Arrow (→): Decrement the first mode.
+Exit Control
+'q': Quit the program.

@@ -1,0 +1,16 @@
+select_mode()
+Description: Allows the user to interactively select modes using arrow keys. The selected modes are stored in the global mode vector.
+Input: None
+Output: None
+grafic_mode(const std::vector<int>& modes)
+Description: Displays the selected modes on the console.
+Input:
+const std::vector<int>& modes: Vector containing the selected modes.
+Output: None
+main()
+Description: The main function of the program.
+Steps:
+Create a thread to execute the select_mode function concurrently.
+Continuously display the selected modes using grafic_mode in the main thread.
+Wait for the user to press 'q' to exit the program.
+Join the thread created in step 1 to ensure a clean exit.

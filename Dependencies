@@ -1,0 +1,4 @@
+iostream: Input/output stream handling in C++.
+thread: Provides support for creating and managing threads.
+conio.h: Console input/output functions (platform-dependent).
+vector: Dynamic array implementation in C++.
